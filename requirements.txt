@@ -1,0 +1,28 @@
+# Core LangChain and dependencies
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+
+# Streamlit for UI
+streamlit
+
+# Document loaders and parsers
+pypdf
+unstructured
+
+# Embedding models
+sentence-transformers
+
+# Vector store
+chromadb
+
+# Optional: Improve PDF parsing reliability
+pdfminer.six
+
+# Basic NLP and utility
+tqdm
+
+# Optional for file I/O
+python-dotenv
