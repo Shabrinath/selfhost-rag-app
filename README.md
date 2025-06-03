@@ -107,7 +107,7 @@ selfhosted-rag-app/
 Running the App
 ---------------
 
-### 1\ Start the App
+### 1\. Start the App
 ```
 streamlit run app.py
 ```
