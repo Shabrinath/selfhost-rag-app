@@ -1,4 +1,6 @@
 # Selfhosted-RAG-App
+![image](https://github.com/user-attachments/assets/9e8950a2-c622-42ea-bfd5-455425e109c2)
+
 Overview
 --------
 
