@@ -39,7 +39,7 @@ def load_vectorstore():
 
 def main():
     st.set_page_config(page_title="RAG Assistant", layout="wide")
-    st.title("📄 Internal Q&A with RAG (Docs + Ollama)")
+    st.title("📄 On-Premise AI Knowledge Assistant with RAG(Docs + Ollama)")
 
     vectorstore = load_vectorstore()
     retriever = vectorstore.as_retriever()
