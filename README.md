@@ -107,38 +107,15 @@ selfhosted-rag-app/
 Running the App
 ---------------
 
-### 1\. Ingest Documents
-
-Place your `.pdf` or `.txt` files inside the `data/` folder.
-
-Then run:
-
-bash
-
-CopyEdit
-
-`python ingest.py`
-
-This will split and embed the content, and store it in the vector DB.
-
-* * * * *
-
-### 2\. Start the App
-
-bash
-
-CopyEdit
-
-`streamlit run app.py`
+### 1\ Start the App
+```
+streamlit run app.py
+```
 
 Then open your browser and go to:
-
-arduino
-
-CopyEdit
-
-`http://localhost:8501`
-
+```
+http://localhost:8501
+```
 * * * * *
 
 Notes
