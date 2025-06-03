@@ -1,4 +1,4 @@
-# Selfhosted-rag-app
+# Selfhosted-RAG-App
 Overview
 --------
 
