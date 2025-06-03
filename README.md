@@ -50,52 +50,37 @@ Setup Instructions
 ------------------
 
 ### 1\. Clone the Repository
-
-bash
-
-CopyEdit
-
-`git clone https://github.com/yourname/internal-rag.git
-cd internal-rag`
+```
+git clone https://github.com/yourname/internal-rag.git
+cd selfhosted-rag-app
+```
 
 ### 2\. Create and Activate Virtual Environment
-
-bash
-
-CopyEdit
-
-`python3 -m venv rag-env
-source rag-env/bin/activate`
+```
+python3 -m venv rag-env
+source rag-env/bin/activate
+```
 
 ### 3\. Install Required Packages
-
-bash
-
-CopyEdit
-
-`pip install --upgrade pip
-pip install -r requirements.txt`
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 > Make sure the following extra packages are installed based on LangChain version warnings:
-
-bash
-
-CopyEdit
-
-`pip install langchain-community langchain-chroma langchain-huggingface langchain-ollama`
+```
+pip install langchain-community langchain-chroma langchain-huggingface langchain-ollama
+```
 
 ### 4\. Install and Run Ollama
 
-Install Ollama from <https://ollama.com>\
-Then pull and run the LLM you want (e.g., LLaMA 3):
+Install Ollama then pull and run the LLM you want (e.g., LLaMA 3):
 
-bash
-
-CopyEdit
-
-`ollama pull llama3
-ollama run llama3`
-
+```
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3
+ollama run llama3
+```
 Keep this running in a separate terminal or background.
 
 * * * * *
@@ -103,11 +88,8 @@ Keep this running in a separate terminal or background.
 Folder Structure
 ----------------
 
-bash
-
-CopyEdit
-
-`internal-rag/
+```
+selfhosted-rag-app/
 
 ├── app.py               # Main Streamlit app
 
@@ -119,6 +101,7 @@ CopyEdit
 
 ├── requirements.txt     # Python dependencies`
 
+```
 * * * * *
 
 Running the App
